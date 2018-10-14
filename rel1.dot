@@ -1,0 +1,48 @@
+graph phdrelation {
+
+    // Node Properties
+	"Alonzo Church" [style = filled];
+	"Michael Rabin (1976)" [style = filled,color=salmon2];
+	"Alonzo Church" [style = filled];
+	"Dana Scott (1976)" [style = filled,color=salmon2];
+	"Claude Shannon" [style = filled];
+	"Ivan Sutherland (1988)" [style = filled,color=salmon2];
+	"Howard Aiken" [style = filled];
+	"Kenneth Iverson (1979)" [style = filled,color=salmon2];
+	"Howard Aiken" [style = filled];
+	"Frederick Brooks (1999)" [style = filled,color=salmon2];
+	"John McCarthy (1971)" [style = filled,color=salmon2];
+	"Dabbala Reddy (1994)" [style = filled,color=salmon2];
+	"John McCarthy (1971)" [style = filled,color=salmon2];
+	"Barbara Liskov (2008)" [style = filled,color=salmon2];
+	"Herbert Simon (1975)" [style = filled,color=salmon2];
+	"Edward Feigenbaum (1994)" [style = filled,color=salmon2];
+	"Marvin Minsky (1969)" [style = filled,color=salmon2];
+	"Manuel Blum (1995)" [style = filled,color=salmon2];
+	"Robert Floyd (1978)" [style = filled,color=salmon2];
+	"Ronald Rivest (2002)" [style = filled,color=salmon2];
+	"Robert Floyd (1978)" [style = filled,color=salmon2];
+	"Robert Tarjan (1986)" [style = filled,color=salmon2];
+	"Manuel Blum (1995)" [style = filled,color=salmon2];
+	"Shafi Goldwasser (2012)" [style = filled,color=salmon2];
+	"Manuel Blum (1995)" [style = filled,color=salmon2];
+	"Silvio Micali (2012)" [style = filled,color=salmon2];
+
+    
+    // Relationship
+    "Alonzo Church" -- "Alan Turing";
+    "Alonzo Church" -- "Michael Rabin (1976)";
+    "Alonzo Church" -- "Dana Scott (1976)";
+    "Claude Shannon" -- "Ivan Sutherland (1988)";
+    "Howard Aiken" -- "Kenneth Iverson (1979)";
+    "Howard Aiken" -- "Frederick Brooks (1999)";
+    "John McCarthy (1971)" -- "Dabbala Reddy (1994)";
+    "John McCarthy (1971)" -- "Barbara Liskov (2008)";
+    "Herbert Simon (1975)" -- "Edward Feigenbaum (1994)";
+    "Marvin Minsky (1969)" -- "Manuel Blum (1995)";
+    "Robert Floyd (1978)" -- "Ronald Rivest (2002)";
+    "Robert Floyd (1978)" -- "Robert Tarjan (1986)";
+    "Manuel Blum (1995)" -- "Shafi Goldwasser (2012)";
+    "Manuel Blum (1995)" -- "Silvio Micali (2012)";
+
+ }

@@ -1,0 +1,51 @@
+graph anyrelation {
+
+    // Node Properties
+	"Claude Shannon" [style = filled];
+	"Michael Rabin (1976)" [style = filled,color=salmon2];
+	"Herbert Simon (1975)" [style = filled,color=salmon2];
+	"Manuel Blum (1995)" [style = filled,color=salmon2];
+	"Shafi Goldwasser (2012)" [style = filled,color=salmon2];
+	"Edward Feigenbaum (1994)" [style = filled,color=salmon2];
+	"Kenneth Iverson (1979)" [style = filled,color=salmon2];
+	"Silvio Micali (2012)" [style = filled,color=salmon2];
+	"Ronald Rivest (2002)" [style = filled,color=salmon2];
+	"John Cocke (1987)" [style = filled,color=salmon2];
+	"Alan Turing" [style = filled];
+	"Howard Aiken" [style = filled];
+	"Robert Tarjan (1986)" [style = filled,color=salmon2];
+	"Marvin Minsky (1969)" [style = filled,color=salmon2];
+	"Alan Perlis (1966)" [style = filled,color=salmon2];
+	"John McCarthy (1971)" [style = filled,color=salmon2];
+	"Dana Scott (1976)" [style = filled,color=salmon2];
+	"Frederick Brooks (1999)" [style = filled,color=salmon2];
+	"Robert Floyd (1978)" [style = filled,color=salmon2];
+	"Frances Allen (2006)" [style = filled,color=salmon2];
+	"Allen Newell (1975)" [style = filled,color=salmon2];
+	"Ivan Sutherland (1988)" [style = filled,color=salmon2];
+	"Alonzo Church" [style = filled];
+	"Barbara Liskov (2008)" [style = filled,color=salmon2];
+	"Dabbala Reddy (1994)" [style = filled,color=salmon2];
+
+    
+    // Relationship
+    "Alonzo Church" -- "Alan Turing";
+    "Alonzo Church" -- "Michael Rabin (1976)";
+    "Alonzo Church" -- "Dana Scott (1976)";
+    "Claude Shannon" -- "Ivan Sutherland (1988)";
+    "Howard Aiken" -- "Kenneth Iverson (1979)";
+    "Howard Aiken" -- "Frederick Brooks (1999)";
+    "John McCarthy (1971)" -- "Dabbala Reddy (1994)";
+    "John McCarthy (1971)" -- "Barbara Liskov (2008)";
+    "Herbert Simon (1975)" -- "Edward Feigenbaum (1994)";
+    "Marvin Minsky (1969)" -- "Manuel Blum (1995)";
+    "Robert Floyd (1978)" -- "Ronald Rivest (2002)";
+    "Robert Floyd (1978)" -- "Robert Tarjan (1986)";
+    "Manuel Blum (1995)" -- "Shafi Goldwasser (2012)";
+    "Manuel Blum (1995)" -- "Silvio Micali (2012)";
+    "Alan Perlis (1966)" -- "Allen Newell (1975)" [color=blue, penwidth=3];
+    "Alan Perlis (1966)" -- "Herbert Simon (1975)" [color=blue, penwidth=3];
+    "John Cocke (1987)" -- "Frances Allen (2006)" [color=blue, penwidth=3];
+
+
+ }

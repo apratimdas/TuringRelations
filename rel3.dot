@@ -1,0 +1,76 @@
+graph anyrelation {
+
+    // Node Properties
+	"Herbert Simon (1975)" [style = filled,color=salmon2];
+	"Frederick Brooks (1999)" [style = filled,color=salmon2];
+	"Alan Perlis (1966)" [style = filled,color=salmon2];
+	"Claude Shannon" [style = filled];
+	"Silvio Micali (2012)" [style = filled,color=salmon2];
+	"Dabbala Reddy (1994)" [style = filled,color=salmon2];
+	"Peter J. Denning (ACM President)" [style = filled];
+	"Robert Tarjan (1986)" [style = filled,color=salmon2];
+	"John Cocke (1987)" [style = filled,color=salmon2];
+	"Howard Aiken" [style = filled];
+	"Alonzo Church" [style = filled];
+	"Kenneth Iverson (1979)" [style = filled,color=salmon2];
+	"John McCarthy (1971)" [style = filled,color=salmon2];
+	"Barbara Liskov (2008)" [style = filled,color=salmon2];
+	"Ronald Rivest (2002)" [style = filled,color=salmon2];
+	"Marvin Minsky (1969)" [style = filled,color=salmon2];
+	"Edward Feigenbaum (1994)" [style = filled,color=salmon2];
+	"Ivan Sutherland (1988)" [style = filled,color=salmon2];
+	"Robert Floyd (1978)" [style = filled,color=salmon2];
+	"George Forsythe (ACM President)" [style = filled];
+	"Shafi Goldwasser (2012)" [style = filled,color=salmon2];
+	"Alan Turing" [style = filled];
+	"Alan Kay (2003)" [style = filled,color=salmon2];
+	"Dana Scott (1976)" [style = filled,color=salmon2];
+	"Donald Knuth (1974)" [style = filled,color=salmon2];
+	"Manuel Blum (1995)" [style = filled,color=salmon2];
+	"Allen Newell (1975)" [style = filled,color=salmon2];
+	"Michael Rabin (1976)" [style = filled,color=salmon2];
+	"Frances Allen (2006)" [style = filled,color=salmon2];
+  
+    // Relationship
+    // PhD Supervisor - Student
+    "Alonzo Church" -- "Alan Turing";
+    "Alonzo Church" -- "Michael Rabin (1976)";
+    "Alonzo Church" -- "Dana Scott (1976)";
+    "Claude Shannon" -- "Ivan Sutherland (1988)";
+    "Howard Aiken" -- "Kenneth Iverson (1979)";
+    "Howard Aiken" -- "Frederick Brooks (1999)";
+    "John McCarthy (1971)" -- "Dabbala Reddy (1994)";
+    "John McCarthy (1971)" -- "Barbara Liskov (2008)";
+    "Herbert Simon (1975)" -- "Edward Feigenbaum (1994)";
+    "Marvin Minsky (1969)" -- "Manuel Blum (1995)";
+    "Robert Floyd (1978)" -- "Ronald Rivest (2002)";
+    "Robert Floyd (1978)" -- "Robert Tarjan (1986)";
+    "Manuel Blum (1995)" -- "Shafi Goldwasser (2012)";
+    "Manuel Blum (1995)" -- "Silvio Micali (2012)";
+
+    // Co-author
+    "Alan Perlis (1966)" -- "Allen Newell (1975)" [color=blue, penwidth=3];
+    "Alan Perlis (1966)" -- "Herbert Simon (1975)" [color=blue, penwidth=3];
+    "John Cocke (1987)" -- "Frances Allen (2006)" [color=blue, penwidth=3];
+    
+    // Colleagues
+    "Alan Perlis (1966)" -- "Allen Newell (1975)" [color=green, penwidth=3, label="Carnegie"]
+    "Alan Perlis (1966)" -- "Herbert Simon (1975)" [color=green, penwidth=3, label="Carnegie"]
+    "John Cocke (1987)" -- "Frances Allen (2006)" [color=green, penwidth=3, label="IBM"]
+    "Kenneth Iverson (1979)" -- "Frederick Brooks (1999)" [color=green, penwidth=3, label="Harvard"]
+    "Donald Knuth (1974)" -- "Robert Floyd (1978)" [color=green, penwidth=3, label="Stanford"]
+    "Donald Knuth (1974)" -- "George Forsythe (ACM President)" [color=green, penwidth=3, label="Stanford"]
+
+    //Prof-student
+    "Donald Knuth (1974)" -- "Robert Tarjan (1986)"
+    "Howard Aiken" -- "Frederick Brooks (1999)"
+    "Ivan Sutherland (1988)" -- "Alan Kay (2003)"
+     
+    //Necrologies/misc.
+    "Peter J. Denning (ACM President)" -- "Alan Perlis (1966)"
+    "Donald Knuth (1974)" -- "George Forsythe (ACM President)"
+    "Donald Knuth (1974)" -- "Robert Floyd (1978)"
+    "Edward Feigenbaum (1994)" -- "Herbert Simon (1975)"
+
+    
+ }
