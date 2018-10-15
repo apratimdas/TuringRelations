@@ -1,4 +1,5 @@
 graph anyrelation {
+    overlap = false;
 
     // Node Properties
 	"Herbert Simon (1975)" [style = filled,color=salmon2];

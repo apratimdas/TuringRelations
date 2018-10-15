@@ -1,7 +1,7 @@
 
 import re
 
-with open("rel4.dot", "r") as ins:
+with open("rel5.dot", "r") as ins:
     arr = []
     flag = 0
     for line in ins:

@@ -1,4 +1,5 @@
 graph phdrelation {
+    overlap = false;
 
     // Node Properties
 	"Alonzo Church" [style = filled];
