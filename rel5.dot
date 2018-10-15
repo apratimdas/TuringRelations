@@ -83,15 +83,15 @@ graph anyrelation {
         "Ronald Rivest (2002)" [style = filled,color=salmon2];
         // Field Properties
         "Mathematics" [shape = polygon, sides = 5, style = filled, color = cyan]
-        "Compilers"
-        "Web"
-        "Architecture"
-        "Algorithms"
-        "Operating System"
-        "Distributed Computing"
-        "Mathematics"
-        "Database"
-        "Artificial Intelligence"
+        "Compilers" [shape = polygon, sides = 5, style = filled, color = cyan]
+        "Web" [shape = polygon, sides = 5, style = filled, color = cyan]
+        "Architecture" [shape = polygon, sides = 5, style = filled, color = cyan]
+        "Algorithms" [shape = polygon, sides = 5, style = filled, color = cyan]
+        "Operating System" [shape = polygon, sides = 5, style = filled, color = cyan]
+        "Distributed Computing" [shape = polygon, sides = 5, style = filled, color = cyan]
+        "Mathematics" [shape = polygon, sides = 5, style = filled, color = cyan]
+        "Database" [shape = polygon, sides = 5, style = filled, color = cyan]
+        "Artificial Intelligence" [shape = polygon, sides = 5, style = filled, color = cyan]
   
     // Relationship
     // PhD Supervisor - Student
