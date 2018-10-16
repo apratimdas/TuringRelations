@@ -53,7 +53,7 @@ graph anyrelation{
 	"Shafi Goldwasser (2012)" [style = filled,color=salmon2];
 	"Frederick Brooks (1999)" [style = filled,color=salmon2];
 	"Herbert A. Simon (1975)" [style = filled,color=salmon2];
-	"Dabbala Reddy (1994)" [style = filled,color=salmon2];
+	"Raj Reddy (1994)" [style = filled,color=salmon2];
 	"Kenneth Iverson (1979)" [style = filled,color=salmon2];
 	"Leslie Lamport (2013)" [style = filled,color=salmon2];
 	"Michael Stonebraker (2014)" [style = filled,color=salmon2];
@@ -145,7 +145,7 @@ graph anyrelation{
     "Claude Shannon" -- "Ivan Sutherland (1988)";
     "Howard Aiken" -- "Kenneth Iverson (1979)";
     "Howard Aiken" -- "Frederick Brooks (1999)";
-    "John McCarthy (1971)" -- "Dabbala Reddy (1994)";
+    "John McCarthy (1971)" -- "Raj Reddy (1994)";
     "John McCarthy (1971)" -- "Barbara Liskov (2008)";
     "Herbert Simon (1975)" -- "Edward Feigenbaum (1994)";
     "Marvin Minsky (1969)" -- "Manuel Blum (1995)";
